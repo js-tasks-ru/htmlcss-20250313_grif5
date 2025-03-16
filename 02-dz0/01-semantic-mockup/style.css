@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.page {
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+h1 {
+  padding: 10px;
+  font-size: 45px;
+  color: white;
+  background-color: red;
+  text-align: center;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: orange;
+}
+nav a {
+  padding: 8px 0;
+  color: white;
+  font-size: 22px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 15px;
+  background-color: limegreen;
+}
+article {
+  padding: 40px 20px;
+  color: white;
+  background-color: blue;
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+ul, ol {
+  padding: 0 20px;
+}
+li {
+  font-size: 18px;
+}
+footer {
+  padding: 10px;
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  background-color: fuchsia;
+}
