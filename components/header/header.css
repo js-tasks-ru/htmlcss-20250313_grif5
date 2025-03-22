@@ -1,0 +1,8 @@
+.header {
+  padding: 96px 0 77px;
+}
+.header__title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 64px;
+}
