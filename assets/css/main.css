@@ -1,6 +1,6 @@
 @import '../fonts/fonts.css';
 @import 'normalize.css';
-@import '../../components/page/page.css';
+@import 'reset.css';
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
