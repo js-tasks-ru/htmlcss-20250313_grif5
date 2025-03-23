@@ -3,37 +3,48 @@
   color: var(--white);
   border: none;
   border-radius: 8px;
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
   text-align: center;
   cursor: pointer;
+  height: 48px;
 }
 .button_primary {
   background-color: var(--primary);
 }
-.button_primary_disabled {
+.button_primary_hover {
   background-color: var(--primary);
-  opacity: 50%;
-  cursor: default;
+  transition: 0.3s ease-in-out;
+}
+.button_primary_hover:hover {
+  background-color: var(--primaryHover);
 }
 .button_secondary {
   background-color: var(--secondary);
 }
-.button_secondary_disabled {
+.button_secondary_hover {
   background-color: var(--secondary);
-  opacity: 50%;
-  cursor: default;
+  transition: 0.3s ease-in-out;
+}
+.button_secondary_hover:hover {
+  background-color: var(--secondaryHover);
 }
 .button_alternate {
   color: var(--grey-4);
   border: 1px solid var(--grey-3);
   background-color: var(--alternate);
 }
-.button_alternate_disabled {
-  color: var(--grey-4);
+.button_alternate_hover {
   border: 1px solid var(--grey-3);
-  background-color: var(--alternate);
-  opacity: 50%;
+  transition: 0.3s ease-in-out;
+}
+.button_alternate_hover:hover {
+  border: 1px solid var(--alternateHover);
+}
+.button:disabled {
+  opacity: 0.5;
   cursor: default;
+  pointer-events: none;
 }
