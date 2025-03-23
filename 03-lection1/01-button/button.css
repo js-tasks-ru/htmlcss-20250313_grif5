@@ -13,34 +13,25 @@
 }
 .button_primary {
   background-color: var(--primary);
-}
-.button_primary_hover {
-  background-color: var(--primary);
   transition: 0.3s ease-in-out;
 }
-.button_primary_hover:hover {
+.button_primary:hover {
   background-color: var(--primaryHover);
 }
 .button_secondary {
   background-color: var(--secondary);
-}
-.button_secondary_hover {
-  background-color: var(--secondary);
   transition: 0.3s ease-in-out;
 }
-.button_secondary_hover:hover {
+.button_secondary:hover {
   background-color: var(--secondaryHover);
 }
 .button_alternate {
   color: var(--grey-4);
   border: 1px solid var(--grey-3);
   background-color: var(--alternate);
-}
-.button_alternate_hover {
-  border: 1px solid var(--grey-3);
   transition: 0.3s ease-in-out;
 }
-.button_alternate_hover:hover {
+.button_alternate:hover {
   border: 1px solid var(--alternateHover);
 }
 .button:disabled {
