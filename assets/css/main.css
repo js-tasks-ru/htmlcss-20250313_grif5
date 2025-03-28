@@ -4,6 +4,8 @@
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
 @import '../../components/footer/footer.css';
+@import '../../components/container/container.css';
+@import '../../components/card/card.css';
 
 :root {
     --white: #ffffff;
@@ -24,6 +26,10 @@
     --secondaryHover: #5028C6;
     --alternate: #FFFFFF;
     --alternateHover: #212429;
+
+    --container-width: 1110px;
+    --card-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    --card-title: var(--black);
 
 
 

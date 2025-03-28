@@ -1,6 +1,11 @@
 .main {
-  height: 1036px;
+  padding: 68px 0 204px;
   background-color: var(--bg-main);
   border-top: 1px solid var(--grey-2);
   border-bottom: 1px solid var(--grey-2);
+}
+.main__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
