@@ -1,0 +1,83 @@
+.main {
+  background-color: var(--white);
+}
+.container {
+  margin: 0 auto;
+  max-width: 1110px;
+}
+.histogram {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  padding: 16px 24px 24px;
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+}
+.histogram__inner-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.histogram__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.histogram__title {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+  opacity: 0.8;
+}
+.histogram__number {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--black);
+}
+.histogram__view {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary);
+}
+.histogram__inner-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1px;
+  height: 50px;
+}
+.histogram__date {
+  flex: 1 0 9px;
+  background-color: var(--primary);
+  height: 100%;
+}
+.histogram__date_10 {
+  height: var(--40);
+}
+.histogram__date_25 {
+  height: var(--25);
+}
+.histogram__date_35 {
+  height: var(--35);
+}
+.histogram__date_40 {
+  height: var(--40);
+}
+.histogram__date_60 {
+  height: var(--60);
+}
+.histogram__date_75 {
+  height: var(--75);
+}
+.histogram__date_85 {
+  height: var(--85);
+}
+.histogram__date_90 {
+  height: var(--90);
+}
