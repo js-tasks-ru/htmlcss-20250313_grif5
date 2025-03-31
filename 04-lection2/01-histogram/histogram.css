@@ -34,7 +34,6 @@
 }
 .histogram__inner-bottom {
   display: flex;
-  justify-content: space-between;
   align-items: flex-end;
   gap: 1px;
   height: 50px;
