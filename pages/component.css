@@ -3,15 +3,18 @@
   grid-template-rows:  auto 1fr auto;
   min-height: 100vh;
 }
-.main {
+.header_component {
+  padding: 24px 0 60px;
+}
+.main_component {
   display: grid;
   grid-template-columns: 229px 1fr;
   gap: 56px;
-  padding: 0;
 }
-.footer {
+.footer_component {
   display: flex;
   justify-content: center;
+  padding: 56px 0;
 }
 .footer__title {
   margin: 0;
